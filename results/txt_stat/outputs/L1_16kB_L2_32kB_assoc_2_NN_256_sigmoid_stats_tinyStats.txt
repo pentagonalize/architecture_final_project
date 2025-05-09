@@ -1,0 +1,68 @@
+Sim Time:
+simSeconds: 0.565250
+simTicks: 565249564000
+simFreq: 1000000000000
+
+CPU Performance:
+system.cpu.numCycles: 565249564
+system.cpu.cpi: 5.539133
+system.cpu.ipc: 0.180534
+system.cpu.commitStats0.numInsts: 102046581
+system.cpu.commitStats0.cpi: 5.539133
+system.cpu.commitStats0.numMemRefs: 0
+system.cpu.commitStats0.numLoadInsts: 44007419
+system.cpu.commitStats0.numStoreInsts: 9145009
+system.cpu.fetchStats0.fetchRate: 0.180534
+system.cpu.executeStats0.instRate: 0
+
+Memory Access Timing:
+system.mem_ctrl.dram.numReads::total: 1503364
+system.mem_ctrl.dram.numWrites::total: 155720
+system.mem_ctrl.dram.totQLat: 12216300000
+system.mem_ctrl.dram.totBusLat: 7502705000
+system.mem_ctrl.dram.totMemAccLat: 40351443750
+system.mem_ctrl.dram.avgQLat: 8141.26
+system.mem_ctrl.dram.avgBusLat: 5000.00
+system.mem_ctrl.dram.avgMemAccLat: 26891.26
+
+Row Buffer Hits:
+system.mem_ctrl.dram.readRowHits: 1121298
+system.mem_ctrl.dram.writeRowHits: 137163
+system.mem_ctrl.dram.readRowHitRate: 74.73
+system.mem_ctrl.dram.writeRowHitRate: 88.12
+
+Total + Component Energy Usage:
+system.mem_ctrl.dram.rank0.totalEnergy: 295857242160
+system.mem_ctrl.dram.rank1.totalEnergy: 294681225345
+system.mem_ctrl.dram.rank0.actEnergy: 1454053860
+system.mem_ctrl.dram.rank0.preEnergy: 772836570
+system.mem_ctrl.dram.rank0.readEnergy: 5464434780
+system.mem_ctrl.dram.rank0.writeEnergy: 418487400
+system.mem_ctrl.dram.rank1.actEnergy: 1385759760
+system.mem_ctrl.dram.rank1.preEnergy: 736529805
+system.mem_ctrl.dram.rank1.readEnergy: 5249427960
+system.mem_ctrl.dram.rank1.writeEnergy: 394021260
+
+Power Metrics:
+system.mem_ctrl.dram.rank0.averagePower: 523.409943
+system.mem_ctrl.dram.rank1.averagePower: 521.329416
+
+Energy Breakdown:
+system.mem_ctrl.dram.rank0.actBackEnergy: 165121436670
+system.mem_ctrl.dram.rank0.preBackEnergy: 78006202080
+system.mem_ctrl.dram.rank0.actPowerDownEnergy: 0
+system.mem_ctrl.dram.rank0.prePowerDownEnergy: 0
+system.mem_ctrl.dram.rank0.pwrStateTime::IDLE: 201351109750
+system.mem_ctrl.dram.rank1.actBackEnergy: 159852464400
+system.mem_ctrl.dram.rank1.preBackEnergy: 82443231360
+system.mem_ctrl.dram.rank1.actPowerDownEnergy: 0
+system.mem_ctrl.dram.rank1.prePowerDownEnergy: 0
+system.mem_ctrl.dram.rank1.pwrStateTime::IDLE: 212925792750
+
+Bus/Memory Throughput:
+system.mem_ctrl.dram.bwTotal::total: 187848665
+system.mem_ctrl.dram.avgRdBW: 169.897741
+system.mem_ctrl.dram.avgWrBW: 17.623706
+system.mem_ctrl.dram.peakBW: 12800.00
+system.mem_ctrl.dram.busUtil: 1.47
+
